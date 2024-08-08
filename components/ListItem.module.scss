@@ -1,0 +1,33 @@
+.item {
+  padding: 16px 0 16px 0;
+  border-bottom: 1px solid var(--theme-border);
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+
+  &:first-child {
+    border-top: 1px solid var(--theme-border);
+    margin-top: 48px;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 72px 96px 1fr;
+  }
+}
+
+.column {
+  padding-right: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--theme-text);
+
+  &:visited {
+    color: var(--theme-text);
+  }
+
+  &:hover {
+    color: var(--theme-primary);
+  }
+}

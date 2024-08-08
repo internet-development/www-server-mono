@@ -1,0 +1,14 @@
+.root {
+  min-height: 100dvh;
+  padding: 64px 24px 64px 24px;
+  max-width: 768px;
+  margin: 0 auto 0 auto;
+
+  border-left: 1px solid var(--theme-border);
+  border-right: 1px solid var(--theme-border);
+
+  @media (max-width: 768px) {
+    border-left: 0px;
+    border-right: 0px;
+  }
+}

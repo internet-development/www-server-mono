@@ -1,0 +1,39 @@
+.root {
+  min-height: calc(100dvh - 48px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+  max-width: 1248px;
+  border-left: 1px solid var(--theme-border);
+  border-right: 1px solid var(--theme-border);
+
+  @media (max-width: 960px) {
+    display: block;
+    max-width: 768px;
+  }
+
+  @media (max-width: 768px) {
+    border-left: 0px;
+    border-right: 0px;
+  }
+}
+
+.column {
+  width: 328px;
+  align-self: stretch;
+  flex-shrink: 0;
+  border-right: 1px solid var(--theme-border);
+
+  @media (max-width: 960px) {
+    width: 100%;
+    border-right: 0px;
+    align-self: unset;
+  }
+}
+
+.fluid {
+  width: 100%;
+  min-width: 10%;
+  align-self: stretch;
+}

@@ -1,0 +1,10 @@
+.root {
+  min-height: calc(100vh - 48px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 88px 24px 88px 24px;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.root {
+  min-height: calc(100dvh - 48px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sidebar {
+  max-width: 240px;
+  width: 100%;
+  align-self: stretch;
+  box-shadow: 1px 0 0 0 var(--theme-border);
+
+  @media (max-width: 960px) {
+    min-width: 128px;
+  }
+}
+
+.content {
+  width: 100%;
+  min-width: 10%;
+  align-self: stretch;
+
+  @media (max-width: 768px) {
+    box-shadow: none;
+  }
+}

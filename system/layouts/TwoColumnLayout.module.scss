@@ -1,0 +1,30 @@
+.root {
+  min-height: calc(100dvh - 48px);
+  max-width: 1248px;
+  margin: 0 auto 0 auto;
+
+  border-left: 1px solid var(--theme-border);
+  border-right: 1px solid var(--theme-border);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @media (max-width: 1248px) {
+    border-left: 0px;
+    border-right: 0px;
+  }
+}
+
+.left {
+  max-width: 188px;
+  width: 100%;
+  box-shadow: 1px 0 0 0 var(--theme-border);
+  align-self: stretch;
+}
+
+.right {
+  min-width: 10%;
+  width: 100%;
+  align-self: stretch;
+}

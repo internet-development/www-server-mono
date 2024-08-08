@@ -1,0 +1,100 @@
+.h1 {
+  font-size: var(--type-scale-1);
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.h2 {
+  font-size: var(--type-scale-2);
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.h3 {
+  font-size: var(--type-scale-3);
+  line-height: 1;
+  font-weight: 400;
+}
+
+.h4 {
+  font-size: var(--type-scale-4);
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.h5 {
+  font-size: var(--type-scale-5);
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.lead {
+  font-size: var(--type-scale-5);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.subLead {
+  font-size: var(--type-scale-6);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.p {
+  font-size: var(--type-scale-fixed-large);
+  line-height: 1;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+  color: var(--theme-text);
+
+  &:visited {
+    color: var(--theme-text);
+  }
+}
+
+.title {
+  font-size: var(--type-scale-fixed-tiny);
+  line-height: 1;
+  opacity: 0.6;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: var(--type-scale-fixed-medium);
+  line-height: 1.6;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+  color: var(--theme-text);
+
+  &:visited {
+    color: var(--theme-text);
+  }
+}
+
+.subTitle {
+  font-size: var(--type-scale-fixed-tiny);
+  line-height: var(--type-scale-fixed-tiny);
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.subText {
+  display: block;
+  font-size: var(--type-scale-7);
+  line-height: var(--type-scale-7);
+  text-decoration: none;
+  color: var(--theme-text);
+
+  &:visited {
+    color: var(--theme-text);
+  }
+}
+
+.unitLabel {
+  font-size: var(--type-scale-fixed-small);
+  line-height: var(--type-scale-fixed-small);
+  color: var(--theme-border);
+}

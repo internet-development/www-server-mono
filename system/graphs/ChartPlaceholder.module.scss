@@ -1,0 +1,12 @@
+.root {
+  border-radius: 16px;
+  background: var(--theme-foreground);
+  color: var(--theme-border);
+  font-size: var(--type-scale-1);
+  padding: 24px;
+  margin: 8px;
+  min-height: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

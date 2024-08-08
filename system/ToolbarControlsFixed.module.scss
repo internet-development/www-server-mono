@@ -1,0 +1,70 @@
+.root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 24px 0 24px;
+}
+
+.toolbar {
+  border: 1px solid var(--theme-border);
+  box-shadow: 1px solid var(--theme-box-shadow-modal);
+  margin: 0 auto 24px auto;
+  width: 100%;
+  border-radius: 8px;
+  max-width: 488px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.divider {
+  width: 2px;
+  display: inline-block;
+  height: 32px;
+  flex-shrink: 0;
+  border: 0;
+  outline: 0;
+  background: linear-gradient(to top, var(--theme-background), var(--theme-border), var(--theme-background));
+  margin-right: 16px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.item {
+  font-size: var(--type-scale-fixed-tiny);
+  line-height: var(--type-scale-fixed-tiny);
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  margin-right: 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: 200ms ease all;
+  text-decoration: none;
+  color: var(--theme-text);
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &:visited {
+    color: var(--theme-text);
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "www-server-mono",
+  "description": "Server Mono is a typeface inspired by typewriters, Apple's San Francisco Mono, ASCII art, command-line interfaces, and programming tools.",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next -p 10000",
+    "build": "next build",
+    "start": "PORT=10000 next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "js-cookie": "^3.0.5",
+    "next": "^14.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "1.77.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

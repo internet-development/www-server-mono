@@ -1,0 +1,50 @@
+.textArea {
+  -webkit-appearance: none;
+  color: var(--theme-text);
+  font-family: var(--font-family);
+  background: var(--theme-background);
+  box-sizing: border-box;
+  padding: 12px 16px 12px 16px;
+  width: 100%;
+  border-radius: 4px;
+  line-height: 1.6;
+  font-size: var(--type-scale-fixed-medium);
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  resize: none;
+  transition: 200ms ease all;
+  transition-property: width;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 0 1px var(--theme-border);
+
+  &:focus {
+    box-shadow:
+      0 0 0 1px var(--theme-border),
+      0 0 0 4px var(--theme-input-active);
+    outline: 0;
+    border: 0;
+  }
+
+  &::placeholder {
+    opacity: 1;
+    color: var(--theme-border);
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--theme-foreground);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--theme-foreground-secondary);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-foreground-secondary);
+  }
+}

@@ -1,0 +1,21 @@
+.root {
+  min-height: calc(100dvh - 48px);
+  height: 100%;
+  position: relative;
+  box-shadow: inset 0 1px 0 0 var(--theme-border);
+  background: linear-gradient(-90deg, var(--theme-border-subdued) 1px, transparent 1px), linear-gradient(var(--theme-border-subdued) 1px, transparent 1px),
+    linear-gradient(-90deg, var(--theme-border-subdued) 1px, transparent 1px), linear-gradient(var(--theme-border-subdued) 1px, transparent 1px),
+    linear-gradient(transparent 10px, var(--theme-background) 10px, var(--theme-background) 90px, transparent 90px),
+    linear-gradient(-90deg, var(--theme-border) 1px, transparent 1px),
+    linear-gradient(-90deg, transparent 10px, var(--theme-background) 10px, var(--theme-background) 90px, transparent 90px),
+    linear-gradient(var(--theme-border) 1px, transparent 1px), var(--theme-background);
+  background-size:
+    20px 20px,
+    20px 20px,
+    100px 100px,
+    100px 100px,
+    100px 100px,
+    100px 100px,
+    100px 100px,
+    100px 100px;
+}

@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+}
+
+.input {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  display: block;
+  opacity: 0;
+}
+
+.body {
+  -webkit-appearance: none;
+  font-size: var(--type-scale-6);
+  transition: 200ms ease box-shadow;
+  box-shadow: var(--theme-box-shadow-modal);
+  background: var(--theme-background);
+  border-radius: 2px;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  height: 288px;
+}
+
+.hover {
+  box-shadow:
+    0 0 0 1px var(--theme-border),
+    0 0 0 4px var(--theme-input-active);
+}

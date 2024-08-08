@@ -1,0 +1,110 @@
+@keyframes blur {
+  0% {
+    filter: blur(4px);
+    opacity: 0.5;
+  }
+  25% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  75% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(4px);
+    opacity: 0.5;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-75%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(75%);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(75%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-75%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-75%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  75% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(75%);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(75%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  75% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-75%);
+  }
+}

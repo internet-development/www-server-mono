@@ -1,0 +1,139 @@
+.root {
+  padding: 24px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding: 0px;
+    margin-top: 64px;
+  }
+}
+
+.left {
+  flex-shrink: 0;
+  min-height: 20px;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-left: 12px;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding-left: 0px;
+  }
+}
+
+.right {
+  min-width: 10%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-right: 12px;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding-right: 0px;
+  }
+}
+
+.column {
+  width: 40%;
+  padding: 12px 48px 12px 12px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0px 0px 48px 0px;
+  }
+}
+
+.subColumn {
+  width: 20%;
+  padding: 12px;
+  text-align: right;
+
+  @media (max-width: 768px) {
+    text-align: left;
+    width: 25%;
+    padding: 0px;
+  }
+}
+
+.subTitle {
+  color: var(--theme-text);
+  font-size: var(--type-scale-7);
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+  transition: 200ms ease all;
+
+  &:visited {
+    color: var(--theme-text);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.item {
+  color: var(--theme-text);
+  margin-top: 16px;
+  font-size: var(--type-scale-7);
+  opacity: 0.6;
+  display: block;
+  text-decoration: none;
+  transition: 200ms ease all;
+
+  &:visited {
+    color: var(--theme-text);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.subItem {
+  color: var(--theme-text);
+  font-size: var(--type-scale-7);
+  opacity: 0.6;
+  display: inline-block;
+  margin-right: 24px;
+  text-decoration: none;
+  transition: 200ms ease all;
+
+  &:visited {
+    color: var(--theme-text);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.copy {
+  display: inline-block;
+  font-size: var(--type-scale-7);
+}

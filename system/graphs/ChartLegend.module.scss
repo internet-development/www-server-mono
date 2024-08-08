@@ -1,0 +1,24 @@
+.root {
+  padding: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legendColor {
+  height: 24px;
+  box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.2);
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.name {
+  min-width: 10%;
+  width: 100%;
+  padding-left: 16px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}

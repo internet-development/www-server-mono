@@ -1,0 +1,29 @@
+# Assumes auto-deploy is off
+name: Render Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ secrets.RENDER_API_TOKEN != '' && secrets.RENDER_SERVICE_ID != '' }}
+    steps:
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          wait-for-success: true
+
+      - name: Test if deployment was successful
+        run: |
+          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://$RENDER_SERVICE_ID.onrender.com)
+          if [ "$STATUS_CODE" -ne 200 ]; then
+            echo "Deployment failed with status code: $STATUS_CODE"
+            exit 1
+          fi
+        env:
+          MY_RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
+        shell: bash

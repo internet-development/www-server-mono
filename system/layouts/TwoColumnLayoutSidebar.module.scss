@@ -1,0 +1,33 @@
+.root {
+  min-height: calc(100dvh - 48px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.left {
+  width: 100%;
+  min-width: 10%;
+  box-shadow: 1px 0 0 0 var(--theme-border);
+  align-self: stretch;
+
+  @media (max-width: 768px) {
+    box-shadow: none;
+  }
+}
+
+.right {
+  max-width: 480px;
+  width: 100%;
+  align-self: stretch;
+
+  @media (max-width: 768px) {
+    display: none;
+    max-width: auto;
+    box-shadow: none;
+  }
+}

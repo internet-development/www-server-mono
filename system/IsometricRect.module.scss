@@ -1,0 +1,50 @@
+.box {
+  position: absolute;
+  box-shadow: 0 0 0 1px transparent;
+  transition: 200ms ease box-shadow;
+
+  &:hover {
+    box-shadow: 0 0 0 1px var(--theme-border);
+  }
+}
+
+.anchor {
+  position: relative;
+  pointer-events: none;
+}
+
+.cube {
+  pointer-events: none;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-35deg) rotateY(45deg);
+  transition: transform 1s;
+}
+
+.face {
+  position: absolute;
+  font-size: 40px;
+  color: var(--theme-background);
+  text-align: center;
+  border: 1px solid var(--theme-border);
+}
+
+.front {
+  background: var(--theme-text);
+}
+
+.left {
+  background: var(--theme-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  background: var(--theme-text);
+}
+
+.iframe {
+  height: 100%;
+  width: 100%;
+}

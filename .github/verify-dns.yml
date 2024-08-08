@@ -1,0 +1,17 @@
+name: Verify Custom Domain on Render
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  verify-domain:
+    runs-on: ubuntu-latest
+    if: ${{ secrets.RENDER_API_TOKEN != '' && secrets.RENDER_SERVICE_ID != '' }}
+
+    steps:
+    - name: Verify DNS for Custom Domain on Render
+      run: |
+        curl -X POST "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/custom-domains/${{ secrets.DOMAIN }}/verify" \
+        -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+        -H "Content-Type: application/json"

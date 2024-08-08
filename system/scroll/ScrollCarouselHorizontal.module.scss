@@ -1,0 +1,88 @@
+@keyframes scroll-carousel-horizontal {
+  0% {
+    transform: translate3d(16rem, 90rem, 0) scale(0.4) rotate3d(2, -100, 100, 30deg);
+    opacity: 0.1;
+    filter: blur(2rem);
+  }
+  30% {
+    opacity: 0.8;
+    filter: blur(0.3rem);
+    transform: translate3d(8rem, 0, 0) rotate3d(2, -100, 100, 30deg) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0);
+    z-index: 1;
+    transform: translate3d(0rem, 0rem, 0) scale(1.55);
+  }
+  70% {
+    filter: blur(0.1rem);
+    opacity: 0.8;
+    transform: translate3d(4rem, 0, 0) rotate3d(2, -100, 100, -30deg) scale(0.8);
+  }
+  100% {
+    opacity: 0.3;
+    filter: blur(0.3rem);
+    transform: translate3d(4rem, 30rem, 0) scale(0.4) rotate3d(2, -100, 100, -30deg);
+  }
+}
+
+.carousel {
+  overflow: hidden;
+  height: calc(100dvh - 48px);
+  display: grid;
+  place-items: center;
+  perspective: 40rem;
+  scroll-timeline: --scroller inline;
+}
+
+.scroller {
+  display: grid;
+  gap: 2rem;
+  place-items: center;
+  grid-auto-flow: column;
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  height: 100%;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center;
+
+  &::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+  }
+  &::-webkit-scrollbar {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--theme-foreground);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--theme-foreground-secondary);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-foreground-secondary);
+  }
+}
+
+.item {
+  perspective: 100rem;
+  view-timeline-name: --li-in-and-out-of-view;
+  view-timeline-axis: inline;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.image {
+  width: 248px;
+  height: 345px;
+  box-shadow: 0 0 0 8px var(--theme-border-subdued);
+  border-radius: 16px;
+  animation: scroll-carousel-horizontal 200ms ease;
+  animation-timeline: --li-in-and-out-of-view;
+}
