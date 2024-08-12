@@ -49,32 +49,11 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Downloads</Title>
-
-            <ActionItem
-              style={{ marginTop: `1rem` }}
-              icon={`⊹`}
-              href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-Regular.otf"
-              target="_blank"
-            >
-              Server Mono Regular OTF
+            <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/0-0-2" target="_blank">
+              Latest [8-12-2024] WOFF, WOFF2, OTF, and Glyphs
             </ActionItem>
-            <ActionItem icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-Regular.woff" target="_blank">
-              Server Mono Regular WOFF
-            </ActionItem>
-            <ActionItem icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-Regular.woff2" target="_blank">
-              Server Mono Regular WOFF2
-            </ActionItem>
-            <ActionItem icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-RegularSlanted.otf" target="_blank">
-              Server Mono Regular Slanted OTF
-            </ActionItem>
-            <ActionItem icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-RegularSlanted.woff" target="_blank">
-              Server Mono Regular Slanted WOFF
-            </ActionItem>
-            <ActionItem icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-RegularSlanted.woff2" target="_blank">
-              Server Mono Regular Slanted WOFF2
-            </ActionItem>
-            <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/V1-ServerMono-Regular.glyphs" target="_blank">
-              Server Mono Glyphs
+            <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
+              View all versions
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
@@ -118,7 +97,7 @@ export default function MarketingServerMono(props) {
           </div>
           <div className={styles.right}>
             <Title style={{}}>Regular Slanted</Title>
-            <P style={{ marginTop: `1rem`, fontFamily: 'MonoSlanted' }}>
+            <P style={{ marginTop: `1rem`, fontFamily: 'ServerMono-Regular-Italic' }}>
               Mi sina alta mappa ëa, lómëa coivië, lómëa lúmë, á tyelë, á auta mi i sáma lómë, liëa olassëar ar ilyë lúmët elenaië.
               <br />
               <br />
@@ -190,6 +169,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
 . , : ; … ! ? * # / - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ &
 `}
             </P>
+
+            <Title style={{ marginTop: `2rem` }}>Math (WIP)</Title>
+            <P style={{ marginTop: `1rem` }}>
+              {`
++ - =
+`}
+            </P>
+
 
             <Title style={{ marginTop: `2rem` }}>Blocks</Title>
             <P style={{ marginTop: `1rem` }}>
