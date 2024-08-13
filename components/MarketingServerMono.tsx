@@ -49,11 +49,8 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Downloads</Title>
-            <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts/0-0-2" target="_blank">
-              Latest [8-12-2024] WOFF, WOFF2, OTF, and Glyphs
-            </ActionItem>
-            <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              View all versions
+            <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
+              [0.0.3] [8-13-2024] WOFF, WOFF2, OTF, and Glyphs
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
