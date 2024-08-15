@@ -1,0 +1,20 @@
+name: Create a new GitHub release with the files
+
+on:
+  push:
+    tags: ['*']
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Create a ZIP archive from the fonts directory
+        run: zip -r fonts.zip fonts
+      - name: Create new release and upload fonts.zip
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: 'fonts.zip'
+          generateReleaseNotes: true
