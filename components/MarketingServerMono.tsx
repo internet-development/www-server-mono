@@ -44,7 +44,7 @@ export default function MarketingServerMono(props) {
           <div className={styles.content}>
             <Title>Downloads</Title>
             <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              [0.0.4] [9-5-2024] WOFF, WOFF2, OTF, and Glyphs
+              [0.0.4] [9-5-2024] Latest release
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
@@ -131,46 +131,47 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Basic Latin</Title>
-            <P style={{ marginTop: `1rem` }}>
+            <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z`}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Diacritics</Title>
-            <P style={{ marginTop: `1rem` }}>
+            <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`Á Ă Â Ä À Ā Ą Å Ã Æ Ć Č Ç Ċ Ď Đ É Ě Ê Ë Ė È Ē Ə Ğ Ģ Ġ Ħ Í Î Ï İ Ì Ī Į Ķ Ĺ Ľ Ļ Ł Ń Ň Ņ Ñ Ó Ô Ö Ò Ő Ō Ø Õ Œ Þ Ŕ Ř Ŗ Ś Š Ş Ș ẞ Ť Ţ Ț Ú Û Ü Ù Ű Ū Ų Ů Ẃ Ŵ Ẅ Ẁ Ý Ŷ Ÿ Ỳ Ź Ž Ż
 á ă â ä à ā ą å ã á ă â ä à ā ą å ã æ ć č ç ċ ď đ ð é ě ê ë ė è ē ę ğ ģ ġ ğ ģ ġ ħ ı í î ï ì ī į ȷ ķ ĺ ľ ļ ł ń ň ņ ñ ó ô ö ò ő ō ø õ œ þ ŕ ř ŗ ś š ş ș ß ť ţ ț ú û ü ù ű ū ų ẃ ŵ ẅ ẁ ý ÿ ỳ ŷ ź ž ż`}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Numbers</Title>
-            <P style={{ marginTop: `1rem` }}>
+            <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
 0 1 2 3 4 5 6 7 8 9 ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ½ ¼ ¾ ↋ ↊ ૪`}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Symbols</Title>
-            <P style={{ marginTop: `1rem` }}>
+            <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
 . , : ; … ! ? * # / - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ &
 `}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Math (WIP)</Title>
-            <P style={{ marginTop: `1rem` }}>
+            <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
 + - =
 `}
             </P>
             <Title style={{ marginTop: `2rem` }}>ASCII</Title>
-            <P style={{ marginTop: `1rem`, whiteSpace: 'pre', lineHeight: 1}}>
+            <P style={{ marginTop: `1rem`, whiteSpace: 'pre-wrap', lineHeight: 1, fontSize: 12}}>
               {`
-oo____oo____oooo____oo______oo____oo_
-oo____oo__oo____oo__oo______oo____oo_
-oo____oo_oo______oo_oo_______oo__oo__
-oooooooo_oo______oo_oo_________oo____
-oo____oo__oo____oo__oo_________oo____
-oo____oo____oooo____ooooooo____oo____
-_____________________________________
+ ▄████████    ▄███████▄ ███    █▄  
+███    ███   ███    ███ ███    ███ 
+███    █▀    ███    ███ ███    ███ 
+███          ███    ███ ███    ███ 
+███        ▀█████████▀  ███    ███ 
+███    █▄    ███        ███    ███ 
+███    ███   ███        ███    ███ 
+████████▀   ▄████▀      ████████▀  
 `}
             </P>
           </div>
