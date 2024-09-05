@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="630"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <component base="one.numr" xOffset="-194" identifier="6BB39837"/>
+    <component base="fraction" identifier="ECEC2883"/>
+    <component base="four.dnom" xOffset="170" identifier="687A7439"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-08 10:49:13 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>687A7439</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>6BB39837</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>ECEC2883</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

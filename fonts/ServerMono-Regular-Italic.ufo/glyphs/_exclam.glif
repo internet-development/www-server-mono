@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_exclam" format="2">
+  <advance width="630"/>
+  <anchor x="270" y="0" name="dot"/>
+  <outline>
+    <contour>
+      <point x="262" y="192" type="line"/>
+      <point x="346" y="192" type="line"/>
+      <point x="447" y="700" type="line"/>
+      <point x="341" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-07-26 14:30:06 +0000</string>
+    </dict>
+  </lib>
+</glyph>

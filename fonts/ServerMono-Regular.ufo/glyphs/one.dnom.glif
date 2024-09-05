@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.dnom" format="2">
+  <advance width="630"/>
+  <outline>
+    <contour>
+      <point x="195" y="0" type="line"/>
+      <point x="435" y="0" type="line"/>
+      <point x="435" y="60" type="line"/>
+      <point x="346" y="60" type="line"/>
+      <point x="347" y="340" type="line"/>
+      <point x="287" y="340" type="line"/>
+      <point x="195" y="270" type="line"/>
+      <point x="195" y="201" type="line"/>
+      <point x="279" y="264" type="line"/>
+      <point x="283" y="264" type="line"/>
+      <point x="283" y="60" type="line"/>
+      <point x="195" y="60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-12 09:41:05 +0000</string>
+    </dict>
+  </lib>
+</glyph>

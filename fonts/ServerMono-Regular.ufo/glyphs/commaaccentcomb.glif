@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <advance width="630"/>
+  <unicode hex="0326"/>
+  <anchor x="316" y="0" name="_bottom"/>
+  <anchor x="316" y="-335" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="244" y="-121" type="curve" smooth="yes"/>
+      <point x="244" y="-159"/>
+      <point x="268" y="-183"/>
+      <point x="293" y="-190" type="curve"/>
+      <point x="259" y="-280" type="line"/>
+      <point x="314" y="-280" type="line"/>
+      <point x="365" y="-192" type="line" smooth="yes"/>
+      <point x="419" y="-98"/>
+      <point x="364" y="-51"/>
+      <point x="320" y="-51" type="curve" smooth="yes"/>
+      <point x="279" y="-51"/>
+      <point x="244" y="-79"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-07-26 14:30:06 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>KernOnSpecialSpacing</key>
+        <dict>
+          <key>L</key>
+          <string>NoKerning</string>
+          <key>R</key>
+          <string>NoKerning</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

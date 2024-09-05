@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <advance width="630"/>
+  <unicode hex="0308"/>
+  <anchor x="301" y="500" name="_top"/>
+  <anchor x="332" y="673" name="top"/>
+  <outline>
+    <contour>
+      <point x="225" y="568" type="curve" smooth="yes"/>
+      <point x="255" y="568"/>
+      <point x="284" y="591"/>
+      <point x="289" y="622" type="curve" smooth="yes"/>
+      <point x="294" y="652"/>
+      <point x="275" y="676"/>
+      <point x="245" y="676" type="curve" smooth="yes"/>
+      <point x="214" y="676"/>
+      <point x="186" y="652"/>
+      <point x="181" y="622" type="curve" smooth="yes"/>
+      <point x="176" y="591"/>
+      <point x="194" y="568"/>
+    </contour>
+    <contour>
+      <point x="401" y="568" type="curve" smooth="yes"/>
+      <point x="432" y="568"/>
+      <point x="460" y="591"/>
+      <point x="465" y="622" type="curve" smooth="yes"/>
+      <point x="470" y="652"/>
+      <point x="452" y="676"/>
+      <point x="421" y="676" type="curve" smooth="yes"/>
+      <point x="391" y="676"/>
+      <point x="362" y="652"/>
+      <point x="357" y="622" type="curve" smooth="yes"/>
+      <point x="352" y="591"/>
+      <point x="371" y="568"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-07-26 13:25:08 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>KernOnSpecialSpacing</key>
+        <dict>
+          <key>L</key>
+          <string>NoKerning</string>
+          <key>R</key>
+          <string>NoKerning</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

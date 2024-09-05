@@ -23,12 +23,6 @@ export default function MarketingServerMono(props) {
 
         <hr className={styles.divider} />
 
-        <div className={styles.imageHoist}>
-        <img className={styles.image} src="https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/e5957545-e79c-44d7-a7b0-e82b8edbc314.png" />
-        </div>
-
-        <hr className={styles.divider} />
-
         <div className={styles.row}>
           <div className={styles.content}>
             <P>
@@ -50,7 +44,7 @@ export default function MarketingServerMono(props) {
           <div className={styles.content}>
             <Title>Downloads</Title>
             <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              [0.0.3] [8-13-2024] WOFF, WOFF2, OTF, and Glyphs
+              [0.0.4] [9-5-2024] WOFF, WOFF2, OTF, and Glyphs
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
@@ -134,12 +128,6 @@ export default function MarketingServerMono(props) {
 
         <hr className={styles.divider} />
 
-        <div className={styles.imageHoist}>
-        <img className={styles.image} src="https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/5af1d7a5-fa60-4827-9b4f-808cdb635d59.png" />
-        </div>
-
-        <hr className={styles.divider} />
-
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Basic Latin</Title>
@@ -173,32 +161,30 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
 + - =
 `}
             </P>
+            <Title style={{ marginTop: `2rem` }}>ASCII</Title>
+            <P style={{ marginTop: `1rem`, whiteSpace: 'pre', lineHeight: 1}}>
+              {`
+oo____oo____oooo____oo______oo____oo_
+oo____oo__oo____oo__oo______oo____oo_
+oo____oo_oo______oo_oo_______oo__oo__
+oooooooo_oo______oo_oo_________oo____
+oo____oo__oo____oo__oo_________oo____
+oo____oo____oooo____ooooooo____oo____
+_____________________________________
+`}
+            </P>
           </div>
         </div>
 
         <hr className={styles.divider} />
-        <div className={styles.imageHoist} style={{ marginTop: 8}}>
-        <img className={styles.image} src="https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/a1436fad-7eb2-4a20-a471-fbfe313ff710.png" />
-        </div>
-
-        <hr className={styles.divider} />
-        <div className={styles.row}>
-          <div className={styles.content}>
-            <SubText>
-              With hearts full of reverence and gratitude, we do offer our sincerest thanks unto Whyrusleeping, Andrew Alimbuyuguen, Phil Bedford, and the noble fellowship of the INTDEV community. By thy wise counsel and steadfast support through the many revisions of this font, thou hast rendered service most invaluable, for which we are forever beholden.
-            </SubText>
-          </div>
-        </div>
 
 
       </div>
 
 
-
       <a className={styles.footer} href="https://internet.dev">
         <IntDev width="100%" />
-        <IntDev width="100%" />
-        <IntDev width="100%" />
+
       </a>
     </>
   );

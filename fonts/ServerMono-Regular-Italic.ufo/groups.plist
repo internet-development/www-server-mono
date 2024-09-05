@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>public.kern1.guillemotleft.case</key>
+    <array>
+      <string>guillemetleft.case</string>
+      <string>guilsinglleft.case</string>
+    </array>
+    <key>public.kern1.guillemotright.case</key>
+    <array>
+      <string>guillemetright.case</string>
+      <string>guilsinglright.case</string>
+    </array>
+    <key>public.kern1.hyphen.case</key>
+    <array>
+      <string>hyphen.case</string>
+      <string>endash.case</string>
+      <string>emdash.case</string>
+    </array>
+    <key>public.kern1.parenleft.case</key>
+    <array>
+      <string>parenleft.case</string>
+    </array>
+    <key>public.kern1.seven.numr</key>
+    <array>
+      <string>.notdef</string>
+    </array>
+    <key>public.kern2.hyphen.case</key>
+    <array>
+      <string>hyphen.case</string>
+      <string>endash.case</string>
+      <string>emdash.case</string>
+    </array>
+    <key>public.kern2.sixsuperior</key>
+    <array>
+      <string>.notdef</string>
+    </array>
+  </dict>
+</plist>
