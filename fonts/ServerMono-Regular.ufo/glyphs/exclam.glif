@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="630"/>
+  <unicode hex="0021"/>
+  <outline>
+    <component base="_exclam"/>
+    <component base="period" identifier="5997A0CF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-07-26 14:30:06 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>5997A0CF</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

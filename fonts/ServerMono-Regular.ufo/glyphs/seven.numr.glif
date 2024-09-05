@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.numr" format="2">
+  <advance width="630"/>
+  <outline>
+    <component base="seven.dnom" yOffset="360"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-08 10:43:35 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="630"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="-26" y="100" type="line"/>
+      <point x="-44" y="0" type="line"/>
+      <point x="692" y="600" type="line"/>
+      <point x="709" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-08 10:48:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

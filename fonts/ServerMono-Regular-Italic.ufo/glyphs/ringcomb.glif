@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <advance width="630"/>
+  <unicode hex="030A"/>
+  <anchor x="356" y="500" name="_top"/>
+  <anchor x="399" y="741" name="top"/>
+  <outline>
+    <contour>
+      <point x="365" y="550" type="curve" smooth="yes"/>
+      <point x="419" y="550"/>
+      <point x="468" y="592"/>
+      <point x="477" y="646" type="curve" smooth="yes"/>
+      <point x="487" y="700"/>
+      <point x="453" y="741"/>
+      <point x="399" y="741" type="curve" smooth="yes"/>
+      <point x="344" y="741"/>
+      <point x="296" y="700"/>
+      <point x="286" y="646" type="curve" smooth="yes"/>
+      <point x="277" y="592"/>
+      <point x="310" y="550"/>
+    </contour>
+    <contour>
+      <point x="375" y="605" type="curve" smooth="yes"/>
+      <point x="351" y="605"/>
+      <point x="337" y="623"/>
+      <point x="341" y="646" type="curve" smooth="yes"/>
+      <point x="345" y="669"/>
+      <point x="365" y="686"/>
+      <point x="389" y="686" type="curve" smooth="yes"/>
+      <point x="412" y="686"/>
+      <point x="426" y="669"/>
+      <point x="422" y="646" type="curve" smooth="yes"/>
+      <point x="418" y="623"/>
+      <point x="398" y="605"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-07-26 13:25:08 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>KernOnSpecialSpacing</key>
+        <dict>
+          <key>L</key>
+          <string>NoKerning</string>
+          <key>R</key>
+          <string>NoKerning</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
