@@ -8,9 +8,10 @@ import IntDev from '@system/svg/IntDev';
 import { H3, P, Title, SubText } from '@system/typography';
 
 export default function MarketingServerMono(props) {
+  const videoUrl = 'https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/2316285a-4e2e-4f39-b578-1b0c9cdb7e93.mp4';
+
   return (
     <>
-
       <div className={styles.root}>
         <div className={styles.row}>
           <div className={styles.left}>
@@ -43,8 +44,8 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Downloads</Title>
-            <ActionItem style={{ marginTop: `1rem`}}icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              [0.0.4] [9-5-2024] Latest release
+            <ActionItem style={{ marginTop: `1rem` }} icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
+              [0.0.5] [12-1-2024] Latest release
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
@@ -55,8 +56,8 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <P>
-              This single-weight font was released in 2024 by the Internet Development Studio Company of Seattle, Washington. Created by designers Tim Vanhille and Matthieu Salvaggio, with supplemental
-              direction from Jimmy Lee and the Internet Development Studio Company community.
+              This single-weight font was released in 2024 by the Internet Development Studio Company of Seattle, Washington. Created by designers Tim Vanhille and Matthieu
+              Salvaggio, with supplemental direction from Jimmy Lee and the Internet Development Studio Company community.
             </P>
           </div>
         </div>
@@ -158,11 +159,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
             <Title style={{ marginTop: `2rem` }}>Math (WIP)</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-+ - =
++ - = %
 `}
             </P>
             <Title style={{ marginTop: `2rem` }}>ASCII</Title>
-            <P style={{ marginTop: `1rem`, whiteSpace: 'pre-wrap', lineHeight: 1, fontSize: 12}}>
+            <P style={{ marginTop: `1rem`, whiteSpace: 'pre-wrap', lineHeight: 1, fontSize: 12 }}>
               {`
  ▄████████    ▄███████▄ ███    █▄  
 ███    ███   ███    ███ ███    ███ 
@@ -179,14 +180,12 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
 
         <hr className={styles.divider} />
 
-
+        <a className={styles.footer} href="https://internet.dev">
+          <video className={styles.video} src={videoUrl} autoPlay muted loop playsInline preload="auto">
+            Your browser does not support the video tag.
+          </video>
+        </a>
       </div>
-
-
-      <a className={styles.footer} href="https://internet.dev">
-        <IntDev width="100%" />
-
-      </a>
     </>
   );
 }

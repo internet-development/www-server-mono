@@ -46,11 +46,10 @@
 }
 
 .footer {
+  margin: 88px auto 128px auto;
   display: block;
   color: var(--theme-text);
-  opacity: 0.1;
   transition: 2000ms ease opacity;
-  margin-top: 256px;
 
   &:visited {
     color: var(--theme-text);
@@ -96,5 +95,10 @@
 
 .quoteRight {
   min-width: 10%;
+  width: 100%;
+}
+
+.video {
+  display: block;
   width: 100%;
 }
