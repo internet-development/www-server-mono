@@ -13,3 +13,4 @@ Matthieu Salvaggio <hello@blazetype.eu>
 Tim Vanhille <>
 Jimmy Lee <j@internet.dev>
 Andrew Alimbuyuguen <andy@internet.dev>
+Adrien Chuttarsing <>
