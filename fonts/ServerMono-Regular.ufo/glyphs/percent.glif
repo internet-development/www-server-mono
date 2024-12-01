@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent" format="2">
+  <advance width="630"/>
+  <unicode hex="0025"/>
+  <outline>
+    <component base="ringcomb" xScale="1.37166" yScale="1.37166" xOffset="-275.843" yOffset="-316.398"/>
+    <component base="ringcomb" xScale="1.37166" yScale="1.37166" xOffset="51.7353" yOffset="-754.412"/>
+    <contour>
+      <point x="494" y="700" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="147" y="0" type="line"/>
+      <point x="588" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+    <string>2024-12-01 22:08:06 +0000</string>
+  <key>com.fontlab.recipe</key>
+  <string>zero.numr_fraction_zero.dnom</string>
+  </dict>
+  </lib>
+</glyph>
