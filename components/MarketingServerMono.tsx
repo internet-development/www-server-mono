@@ -45,7 +45,7 @@ export default function MarketingServerMono(props) {
           <div className={styles.content}>
             <Title>Downloads</Title>
             <ActionItem style={{ marginTop: `1rem` }} icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              [0.0.5] [12-1-2024] Latest release
+              [0.0.6] [1-1-2025] Latest release
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
