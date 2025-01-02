@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'ServerMono-Regular';
-  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/a1f0776e-efce-4d45-a6f2-538ccb710599.woff') format('woff');
+  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/6c8ad1f3-2ad9-44a9-88db-46ff3f19c4f3.woff') format('woff');
 }
 
 @font-face {
   font-family: 'ServerMono-Regular-Italic';
-  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/60f7d4a4-201c-4df8-b719-bac4d7d8be5a.woff') format('woff');
+  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/952cb532-3021-434a-b0ac-f4fcc8acf330.woff') format('woff');
 }
 
 html,
@@ -438,6 +438,10 @@ body {
   --font-family-mono: 'ServerMono-Regular', Consolas, monaco, monospace;
   --font-family-serif: Georgia, Times New Roman, serif;
 
+  --theme-border: var(--color-gray-20);
+  --theme-primary: var(--color-blue-60);
+  --theme-text: var(--color-black-100);
+
   font-family: var(--font-family-mono);
   background: var(--theme-background);
   color: var(--theme-text);
@@ -447,8 +451,4 @@ body {
   @media (max-width: 768px) {
     font-size: 12px;
   }
-
-  --theme-border: var(--color-gray-20);
-  --theme-primary: var(--color-blue-60);
-  --theme-text: var(--color-black-100);
 }
