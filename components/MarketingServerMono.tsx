@@ -9,6 +9,9 @@ import { H3, P, Title, SubText } from '@system/typography';
 
 export default function MarketingServerMono(props) {
   const videoUrl = 'https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/2316285a-4e2e-4f39-b578-1b0c9cdb7e93.mp4';
+  const releaseUrl = 'https://github.com/internet-development/www-server-mono/releases';
+  const releaseDate = '1-1-2025';
+  const releaseVersion = '0.0.6';
 
   return (
     <>
@@ -44,8 +47,8 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.content}>
             <Title>Downloads</Title>
-            <ActionItem style={{ marginTop: `1rem` }} icon={`⊹`} href="https://github.com/internet-development/www-server-mono/blob/main/fonts" target="_blank">
-              [0.0.6] [1-1-2025] Latest release
+            <ActionItem style={{ marginTop: `1rem` }} icon={`⊹`} href={releaseUrl} target="_blank">
+              [{releaseVersion}] [{releaseDate}] Latest release
             </ActionItem>
             <ActionItem icon={`⭢`} href="https://github.com/internet-development/www-server-mono" target="_blank">
               View repository on GitHub
