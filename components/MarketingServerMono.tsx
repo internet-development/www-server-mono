@@ -158,14 +158,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
             <Title style={{ marginTop: `2rem` }}>Symbols</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-. , : ; … ! ? * # / - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ &
+. , : ; … ! ? * # / - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ & $ | ¦
 `}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Math (WIP)</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-+ - = %
++ - = ~ % < >
 `}
             </P>
             <Title style={{ marginTop: `2rem` }}>ASCII</Title>
