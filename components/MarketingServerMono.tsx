@@ -61,6 +61,9 @@ export default function MarketingServerMono(props) {
             <P>
               This single-weight font was released in 2024 by the Internet Development Studio Company of Seattle, Washington. Created by designers Tim Vanhille and Matthieu
               Salvaggio, with supplemental direction from Jimmy Lee and the Internet Development Studio Company community.
+              <br />
+              <br />
+              Development started again in 2025 when Caidan Williams took ownership to add missing glyphs and help maintain the project.
             </P>
           </div>
         </div>
