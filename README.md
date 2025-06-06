@@ -33,7 +33,6 @@ Go to `http://localhost:10000` in your browser of choice.
 - Matthieu Salvaggio
 - Andrew Alimbuyuguen
 - Jimmy Lee
-- Caidan Williams
 - Whyrusleeping
 - Philip Bedford
-
+- Caidan Williams

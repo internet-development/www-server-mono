@@ -63,7 +63,7 @@ export default function MarketingServerMono(props) {
               Salvaggio, with supplemental direction from Jimmy Lee and the Internet Development Studio Company community.
               <br />
               <br />
-              Development started again in 2025 when Caidan Williams took ownership to add missing glyphs and help maintain the project.
+              In 2025, Caidan Williams joined the Internet Development Studio, taking ownership of Server Mono to add missing glyphs and help maintain the project.
             </P>
           </div>
         </div>
