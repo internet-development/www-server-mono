@@ -17,9 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Create a ZIP archive from the fonts directory
-        run: zip -r fonts.zip public/fonts
-      - name: Create new release and upload fonts.zip
+        run: zip -r ServerMono-fonts.zip public/fonts
+      - name: Create new release and upload artifacts
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'fonts.zip'
+          artifacts: 'ServerMono-fonts.zip,public/fonts/*'
+          artifactErrorsFailBuild: true
           generateReleaseNotes: true
+          prerelease: false
+          draft: false
