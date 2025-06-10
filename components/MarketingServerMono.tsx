@@ -11,7 +11,7 @@ export default function MarketingServerMono(props) {
   const videoUrl = 'https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/2316285a-4e2e-4f39-b578-1b0c9cdb7e93.mp4';
   const releaseUrl = 'https://github.com/internet-development/www-server-mono/releases';
   const releaseDate = '1-1-2025';
-  const releaseVersion = '0.0.6';
+  const releaseVersion = '0.0.7';
 
   return (
     <>
