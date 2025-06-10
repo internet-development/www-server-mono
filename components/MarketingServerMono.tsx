@@ -61,6 +61,9 @@ export default function MarketingServerMono(props) {
             <P>
               This single-weight font was released in 2024 by the Internet Development Studio Company of Seattle, Washington. Created by designers Tim Vanhille and Matthieu
               Salvaggio, with supplemental direction from Jimmy Lee and the Internet Development Studio Company community.
+              <br />
+              <br />
+              In 2025, Caidan Williams joined the Internet Development Studio, taking ownership of Server Mono to add missing glyphs and help maintain the project.
             </P>
           </div>
         </div>
@@ -92,7 +95,7 @@ export default function MarketingServerMono(props) {
           </div>
           <div className={styles.right}>
             <Title style={{}}>Regular Slanted</Title>
-            <P style={{ marginTop: `1rem`, fontFamily: 'ServerMono-Regular-Italic' }}>
+            <P style={{ marginTop: `1rem`, fontStyle: 'oblique' }}>
               Mi sina alta mappa ëa, lómëa coivië, lómëa lúmë, á tyelë, á auta mi i sáma lómë, liëa olassëar ar ilyë lúmët elenaië.
               <br />
               <br />
@@ -149,20 +152,20 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n 
             <Title style={{ marginTop: `2rem` }}>Numbers</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-0 1 2 3 4 5 6 7 8 9 ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ½ ¼ ¾ ↋ ↊ ૪`}
+0 1 2 3 4 5 6 7 8 9 ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ½ ¼ ¾ ⅛ ⅜ ⅝ ⅞`}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Symbols</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-. , : ; … ! ? * # / - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ &
+. , : ; … ! ¡ ? ¿ * # / \\ - – — _ ( ) { } [ ] ‚ „ “ ” ‘ ’ « » ‹ › @ & $ | ¦
 `}
             </P>
 
             <Title style={{ marginTop: `2rem` }}>Math (WIP)</Title>
             <P style={{ marginTop: `1rem`, lineHeight: `1.6rem` }}>
               {`
-+ - = %
++ - = ~ % < >
 `}
             </P>
             <Title style={{ marginTop: `2rem` }}>ASCII</Title>

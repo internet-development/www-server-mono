@@ -1,11 +1,19 @@
 @font-face {
-  font-family: 'ServerMono-Regular';
-  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/6c8ad1f3-2ad9-44a9-88db-46ff3f19c4f3.woff') format('woff');
+  font-family: 'ServerMono';
+  src: url('/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
+       url('/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
+       url('/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'ServerMono-Regular-Italic';
-  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/952cb532-3021-434a-b0ac-f4fcc8acf330.woff') format('woff');
+  font-family: 'ServerMono';
+  src: url('/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
+       url('/fonts/ServerMono-RegularSlanted.woff') format('woff'),
+       url('/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  font-weight: normal;
+  font-style: oblique;
 }
 
 html,
@@ -435,7 +443,7 @@ body {
   --type-scale-fixed-label: 10px;
 
   --font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, sans-serif;
-  --font-family-mono: 'ServerMono-Regular', Consolas, monaco, monospace;
+  --font-family-mono: 'ServerMono', Consolas, monaco, monospace;
   --font-family-serif: Georgia, Times New Roman, serif;
 
   --theme-border: var(--color-gray-20);
