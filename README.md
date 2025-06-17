@@ -20,11 +20,12 @@ brew install --cask font-server-mono
 
 ## Usage
 
-Add the downloaded font files to your websites public/static directory, here they have a `/fonts/` prefix.
+Add the downloaded font files to your website's public/static directory. The examples below use a `/fonts/` prefix, but you can adjust this path to match your project structure.
 
 Copy the below snippet into your CSS file:
 
 ```css
+/* Regular weight - used for normal text */
 @font-face {
   font-family: 'ServerMono';
   src: url('/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
@@ -35,6 +36,7 @@ Copy the below snippet into your CSS file:
   font-display: swap;
 }
 
+/* Slanted variant - used for italic/oblique text */
 @font-face {
   font-family: 'ServerMono';
   src: url('/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
