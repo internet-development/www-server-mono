@@ -8,18 +8,67 @@ Server Mono continues the long tradition of monospace fonts, renowned for their 
 
 This single-weight font was released in 2024 by the Internet Development Studio Company of Seattle, Washington. Created by designers Tim Vanhille and Matthieu Salvaggio, with supplemental direction from Jimmy Lee and the Internet Development Studio Company community.
 
-### Setup Website (MacOS)
+## Download
+
+You can download the latest version from our [GitHub Releases](https://github.com/internet-development/www-server-mono/releases) page.
+
+Alternatively, you can install it locally using [Homebrew `font-server-mono`](https://formulae.brew.sh/cask/font-server-mono)
+
+```bash
+brew install --cask font-server-mono
+```
+
+## Usage
+
+Add the downloaded font files to your websites public/static directory, here they have a `/fonts/` prefix.
+
+Copy the below snippet into your CSS file:
+
+```css
+@font-face {
+  font-family: 'ServerMono';
+  src: url('/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
+       url('/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
+       url('/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ServerMono';
+  src: url('/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
+       url('/fonts/ServerMono-RegularSlanted.woff') format('woff'),
+       url('/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  font-weight: normal;
+  font-style: oblique;
+  font-display: swap;
+}
+
+```
+
+Then you can use it across your entire site like so:
+
+```css
+:root {
+   font-family: ServerMono, monospace;
+}
+```
+
+## Setup Website (MacOS)
 
 Start by cloning the repository
 
 Then run the server
 
-```sh
+```bash
 npm install
 npm run dev
 ```
 
 Go to `http://localhost:10000` in your browser of choice.
+
+---
 
 ### Contact
 
