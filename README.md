@@ -80,11 +80,22 @@ Copy the below snippet into your CSS file:
 }
 ```
 
+### Using the Font
+
 Then you can use it across your entire site like so:
 
 ```css
 :root {
-   font-family: 'ServerMono', monospace;
+  font-family: 'ServerMono', monospace;
+}
+```
+
+To use the slanted version, set the font style to either `oblique` or `italic`:
+
+```css
+p {
+  font-family: 'ServerMono', monospace;
+  font-style: 'oblique';
 }
 ```
 
