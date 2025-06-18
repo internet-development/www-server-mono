@@ -53,7 +53,7 @@ Then you can use it across your entire site like so:
 
 ```css
 :root {
-   font-family: ServerMono, monospace;
+   font-family: 'ServerMono', monospace;
 }
 ```
 
