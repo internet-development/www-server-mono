@@ -52,9 +52,16 @@ Copy the below snippet into your CSS file:
 
 ### CDN Hosted
 
-ServerMono is also available through the [jsDelivr CDN](https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/), so that you can use the fonts with downloading and hosting them yourself.
+Server Mono is also available through the [jsDelivr CDN](https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/), so that you can use the fonts without downloading and hosting them yourself.
 
-Copy the below snippet into your CSS file:
+Use the pre-built CSS to quickly add Server Mono on your website:
+
+```html
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/server-mono.css">
+```
+
+Or you can copy the below snippet into your CSS file:
 
 ```css
 /* Regular weight - used for normal text */
