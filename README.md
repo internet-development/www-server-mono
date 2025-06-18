@@ -20,6 +20,8 @@ brew install --cask font-server-mono
 
 ## Usage
 
+### Self Hosted
+
 Add the downloaded font files to your website's public/static directory. The examples below use a `/fonts/` prefix, but you can adjust this path to match your project structure.
 
 Copy the below snippet into your CSS file:
@@ -46,14 +48,54 @@ Copy the below snippet into your CSS file:
   font-style: oblique;
   font-display: swap;
 }
-
 ```
+
+### CDN Hosted
+
+ServerMono is also available through the [jsDelivr CDN](https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/), so that you can use the fonts with downloading and hosting them yourself.
+
+Copy the below snippet into your CSS file:
+
+```css
+/* Regular weight - used for normal text */
+@font-face {
+  font-family: 'ServerMono';
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Slanted variant - used for italic/oblique text */
+@font-face {
+  font-family: 'ServerMono';
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  font-weight: normal;
+  font-style: oblique;
+  font-display: swap;
+}
+```
+
+### Using the Font
 
 Then you can use it across your entire site like so:
 
 ```css
 :root {
-   font-family: 'ServerMono', monospace;
+  font-family: 'ServerMono', monospace;
+}
+```
+
+To use the slanted version, set the font style to either `oblique` or `italic`:
+
+```css
+p {
+  font-family: 'ServerMono', monospace;
+  font-style: 'oblique';
 }
 ```
 
