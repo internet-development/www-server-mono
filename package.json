@@ -6,6 +6,7 @@
   },
   "license": "MIT",
   "version": "0.0.8",
+  "jsdelivr": "./server-mono.css",
   "scripts": {
     "dev": "next -p 10000",
     "build": "next build",
