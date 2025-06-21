@@ -1,0 +1,21 @@
+/* Regular weight - used for normal text */
+@font-face {
+  font-family: 'ServerMono';
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Slanted variant - used for italic/oblique text */
+@font-face {
+  font-family: 'ServerMono';
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  font-weight: normal;
+  font-style: oblique;
+  font-display: swap;
+}
