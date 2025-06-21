@@ -58,7 +58,7 @@ Use the pre-built CSS to quickly add Server Mono on your website:
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/server-mono.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/server-mono.css">
 ```
 
 Or you can copy the below snippet into your CSS file:
@@ -67,9 +67,9 @@ Or you can copy the below snippet into your CSS file:
 /* Regular weight - used for normal text */
 @font-face {
   font-family: 'ServerMono';
-  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.woff2') format('woff2'),    /* Best compression, modern browsers */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.woff') format('woff'),      /* Good compression, wider support */
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.otf') format('opentype');   /* Largest files, universal support */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -78,9 +78,9 @@ Or you can copy the below snippet into your CSS file:
 /* Slanted variant - used for italic/oblique text */
 @font-face {
   font-family: 'ServerMono';
-  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.woff') format('woff'),
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono/public/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.otf') format('opentype');
   font-weight: normal;
   font-style: oblique;
   font-display: swap;
