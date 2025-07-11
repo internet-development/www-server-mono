@@ -484,11 +484,11 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -200;
 },
 {
 name = hheaLineGap;
@@ -496,11 +496,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 750;
+value = 900;
 },
 {
 name = typoDescender;
-value = -250;
+value = -200;
 },
 {
 name = typoLineGap;
@@ -508,18 +508,18 @@ value = 0;
 },
 {
 name = winAscent;
-value = 750;
+value = 900;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 }
 );
 id = "941849C8-D0D1-40F0-8537-D2B5B3A46943";
 metricValues = (
 {
 over = 10;
-pos = 700;
+pos = 900;
 },
 {
 over = 10;
@@ -540,7 +540,7 @@ pos = -200;
 pos = 10;
 }
 );
-name = "Regular Slanted";
+name = "Regular Oblique";
 stemValues = (
 96,
 86,
@@ -64815,7 +64815,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Regular;
-name = "Regular Slanted";
+name = "Regular Oblique";
 }
 );
 kerningLTR = {
