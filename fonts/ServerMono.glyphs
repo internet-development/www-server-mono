@@ -374,11 +374,11 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -200;
 },
 {
 name = hheaLineGap;
@@ -386,11 +386,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 750;
+value = 900;
 },
 {
 name = typoDescender;
-value = -250;
+value = -200;
 },
 {
 name = typoLineGap;
@@ -398,11 +398,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 750;
+value = 900;
 },
 {
 name = winDescent;
-value = 250;
+value = -200;
 }
 );
 guides = (
