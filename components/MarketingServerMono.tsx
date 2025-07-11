@@ -94,7 +94,7 @@ export default function MarketingServerMono(props) {
             </P>
           </div>
           <div className={styles.right}>
-            <Title style={{}}>Regular Slanted</Title>
+            <Title style={{}}>Regular Oblique</Title>
             <P style={{ marginTop: `1rem`, fontStyle: 'oblique' }}>
               Mi sina alta mappa ëa, lómëa coivië, lómëa lúmë, á tyelë, á auta mi i sáma lómë, liëa olassëar ar ilyë lúmët elenaië.
               <br />

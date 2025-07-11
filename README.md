@@ -38,12 +38,12 @@ Copy the below snippet into your CSS file:
   font-display: swap;
 }
 
-/* Slanted variant - used for italic/oblique text */
+/* Oblique variant - used for italic/oblique text */
 @font-face {
   font-family: 'ServerMono';
-  src: url('/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
-       url('/fonts/ServerMono-RegularSlanted.woff') format('woff'),
-       url('/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  src: url('/fonts/ServerMono-RegularOblique.woff2') format('woff2'),
+       url('/fonts/ServerMono-RegularOblique.woff') format('woff'),
+       url('/fonts/ServerMono-RegularOblique.otf') format('opentype');
   font-weight: normal;
   font-style: oblique;
   font-display: swap;
@@ -75,12 +75,12 @@ Or you can copy the below snippet into your CSS file:
   font-display: swap;
 }
 
-/* Slanted variant - used for italic/oblique text */
+/* Oblique variant - used for italic/oblique text */
 @font-face {
   font-family: 'ServerMono';
-  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.woff') format('woff'),
-       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularSlanted.otf') format('opentype');
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularOblique.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularOblique.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-RegularOblique.otf') format('opentype');
   font-weight: normal;
   font-style: oblique;
   font-display: swap;
@@ -97,7 +97,7 @@ Then you can use it across your entire site like so:
 }
 ```
 
-To use the slanted version, set the font style to either `oblique` or `italic`:
+To use the oblique version, set the font style to either `oblique` or `italic`:
 
 ```css
 p {
