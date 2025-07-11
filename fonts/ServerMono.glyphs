@@ -1,25 +1,6 @@
 {
 .appVersion = "3343";
 .formatVersion = 3;
-DisplayStrings = (
-"$123
-$123",
-"200%
-200%",
-"123%
-123%",
-":(){ :|:/ampersand.ss01  };:",
-"/Placeholder oo/Placeholder o/Placeholder/Placeholder o
-nhH0o_",
-"|¦|",
-"<=>",
-">_<",
-"200%",
-"/.notdef",
-"/.notdef ▂▃▄▅▆▇█▀▔▏▎▍▌▋▊▉▐▕▖▗▘▙▚▛▜▝▞▟░▒▓●○◦◊■□▲▶▼◀▴▾◂╦╗╔═╩╝╚║╬╣╠╥╖╓┰┒┧┎┟╁┯┑┩┍┡╇╤╕╒╍╏╻┳┓┏━╸╾┉┋╺┅┇╹┻┛╿┗┃╋┫┣╅┭┵┽┲┺╊╃╮╭╯╰╌╎╳╲╱╷┬┐┌─╴╼┈┊╶┄┆╵╽┴┘└│┼┤├╆┮┶┾┱┹╉╄╨╜╙╀┸┦┚┞┖╈┷┪┙┢┕╧╛╘╫╢╟╂┨┠┿┥┝╪╡╞",
-"▁▂▃▄▅▆▇█▀▏▎▍▌▋▊▉▐",
-"◂"
-);
 axes = (
 {
 name = Weight;
@@ -374,11 +355,11 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -200;
 },
 {
 name = hheaLineGap;
@@ -386,11 +367,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 750;
+value = 900;
 },
 {
 name = typoDescender;
-value = -250;
+value = -200;
 },
 {
 name = typoLineGap;
@@ -398,11 +379,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 750;
+value = 900;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 }
 );
 guides = (
@@ -485,11 +466,11 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -200;
 },
 {
 name = hheaLineGap;
@@ -497,11 +478,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 750;
+value = 900;
 },
 {
 name = typoDescender;
-value = -250;
+value = -200;
 },
 {
 name = typoLineGap;
@@ -509,11 +490,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 750;
+value = 900;
 },
 {
 name = winDescent;
-value = 250;
+value = 200;
 }
 );
 id = "941849C8-D0D1-40F0-8537-D2B5B3A46943";
@@ -541,7 +522,7 @@ pos = -200;
 pos = 10;
 }
 );
-name = "Regular Slanted";
+name = "Regular Oblique";
 stemValues = (
 96,
 86,
@@ -21959,7 +21940,7 @@ unicode = 40;
 },
 {
 glyphname = parenright;
-lastChange = "2024-07-26 14:30:06 +0000";
+lastChange = "2025-07-11 20:55:20 +0000";
 layers = (
 {
 layerId = m01;
@@ -64816,7 +64797,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Regular;
-name = "Regular Slanted";
+name = "Regular Oblique";
 }
 );
 kerningLTR = {
@@ -64927,5 +64908,5 @@ oV = "96";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 200;
 }
