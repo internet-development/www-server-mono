@@ -2,17 +2,37 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@root/*": ["./*"],
-      "@system/*": ["./system/*"],
-      "@demos/*": ["./demos/*"],
-      "@common/*": ["./common/*"],
-      "@data/*": ["./data/*"],
-      "@components/*": ["./components/*"],
-      "@pages/*": ["./pages/*"],
-      "@modules/*": ["./modules/*"]
+      "@root/*": [
+        "./*"
+      ],
+      "@system/*": [
+        "./system/*"
+      ],
+      "@demos/*": [
+        "./demos/*"
+      ],
+      "@common/*": [
+        "./common/*"
+      ],
+      "@data/*": [
+        "./data/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@modules/*": [
+        "./modules/*"
+      ]
     },
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -23,7 +43,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
@@ -32,6 +52,15 @@
     ],
     "strictNullChecks": true
   },
-  "exclude": ["node_modules", "**/*.spec.ts"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ]
 }

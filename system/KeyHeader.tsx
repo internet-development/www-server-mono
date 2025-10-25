@@ -2,7 +2,7 @@ import styles from '@system/KeyHeader.module.scss';
 
 import * as React from 'react';
 
-import Cookies from 'js-cookie';
+import Cookies from '@modules/cookies';
 
 import { useModal } from '@system/providers/ModalContextProvider';
 
