@@ -22,10 +22,7 @@
 
 ## [NEXT WORK]
 
-
 No task selected.
-
-
 
 ## [POST WORK]
 

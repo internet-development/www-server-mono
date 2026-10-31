@@ -102,13 +102,15 @@ To use the oblique version, set the font style to either `oblique` or `italic`:
 ```css
 p {
   font-family: 'ServerMono', monospace;
-  font-style: 'oblique';
+  font-style: oblique;
 }
 ```
 
 ## Setup Website (MacOS)
 
 Start by cloning the repository
+
+You will need [Node.js](https://nodejs.org) 20.19 or later
 
 Then run the server
 
